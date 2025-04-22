@@ -20,7 +20,7 @@ shareable eslint config.
 
 ## What is this?
 
-**TODO**: what is this?
+This package is a shareable [eslint][] configuration.
 
 ## Install
 
@@ -57,6 +57,8 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 This project has a [code of conduct](./CODE_OF_CONDUCT.md). By interacting with this repository, organization, or
 community you agree to abide by its terms.
+
+[eslint]: http://eslint.org
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
