@@ -1283,13 +1283,13 @@ __metadata:
     editorconfig: "npm:2.0.1"
     eslint: "npm:9.25.1"
     eslint-import-resolver-typescript: "npm:4.3.4"
-    eslint-mdx: "npm:3.4.0"
+    eslint-mdx: "npm:3.4.1"
     eslint-plugin-chai-expect: "npm:3.1.0"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-jest-formatting: "npm:3.1.0"
     eslint-plugin-jsdoc: "npm:50.6.9"
     eslint-plugin-jsonc: "npm:2.20.0"
-    eslint-plugin-mdx: "npm:3.4.0"
+    eslint-plugin-mdx: "npm:3.4.1"
     eslint-plugin-n: "npm:17.17.0"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-unicorn: "npm:58.0.0"
@@ -4161,9 +4161,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-mdx@npm:3.4.0, eslint-mdx@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "eslint-mdx@npm:3.4.0"
+"eslint-mdx@npm:3.4.1, eslint-mdx@npm:^3.4.1":
+  version: 3.4.1
+  resolution: "eslint-mdx@npm:3.4.1"
   dependencies:
     acorn: "npm:^8.14.1"
     acorn-jsx: "npm:^5.3.2"
@@ -4172,7 +4172,7 @@ __metadata:
     remark-mdx: "npm:^3.1.0"
     remark-parse: "npm:^11.0.0"
     remark-stringify: "npm:^11.0.0"
-    synckit: "npm:^0.11.2"
+    synckit: "npm:^0.11.4"
     tslib: "npm:^2.8.1"
     unified: "npm:^11.0.5"
     unified-engine: "npm:^11.2.2"
@@ -4185,7 +4185,7 @@ __metadata:
   peerDependenciesMeta:
     remark-lint-file-extension:
       optional: true
-  checksum: 10/37bdf1c54b7258e224e0711f7270033881886b3c8c8110d45ea8cec3a230fcbc17e69ba6ba08c7f920510856b95780973d1ecb7ea7cacda2ec22da2dd2efccc2
+  checksum: 10/aaef3f977efc9f8b0f24d59ed6b1911fcb954f5f2a0d26767de348245895555338167515bfb11da8aaf163fb4ae50aedfec0c79fe2ab65ebd6ddd6147d5a3d6c
   languageName: node
   linkType: hard
 
@@ -4300,24 +4300,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-mdx@npm:3.4.0":
-  version: 3.4.0
-  resolution: "eslint-plugin-mdx@npm:3.4.0"
+"eslint-plugin-mdx@npm:3.4.1":
+  version: 3.4.1
+  resolution: "eslint-plugin-mdx@npm:3.4.1"
   dependencies:
-    eslint-mdx: "npm:^3.4.0"
+    eslint-mdx: "npm:^3.4.1"
     mdast-util-from-markdown: "npm:^2.0.2"
     mdast-util-mdx: "npm:^3.0.0"
     micromark-extension-mdxjs: "npm:^3.0.0"
     remark-mdx: "npm:^3.1.0"
     remark-parse: "npm:^11.0.0"
     remark-stringify: "npm:^11.0.0"
-    synckit: "npm:^0.11.2"
+    synckit: "npm:^0.11.4"
     tslib: "npm:^2.8.1"
     unified: "npm:^11.0.5"
     vfile: "npm:^6.0.3"
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: 10/49e4816eed45a268fd01fd133472520ddca2deaf2dda8976624c30149f1e00b85b4a2c91ca538db0dba6f8d1ab3f6f766cb84e33651c2a80237cfef68abc15b4
+  checksum: 10/edddff307f39718d7b0c44e10701942bef701c970b833c8c434682276c3df6f93e128abf1c3eb7e05672f9ae0f5306ff863bed6c4e8e2cee829b2dd8c36e2f3a
   languageName: node
   linkType: hard
 
@@ -9526,7 +9526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.11.2":
+"synckit@npm:^0.11.4":
   version: 0.11.4
   resolution: "synckit@npm:0.11.4"
   dependencies:
