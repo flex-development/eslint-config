@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/eslint-config",
   "description": "shareable eslint config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "eslint",
     "eslintconfig"
