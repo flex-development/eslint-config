@@ -14,8 +14,6 @@ shareable eslint config.
 - [What is this?](#what-is-this)
 - [Install](#install)
 - [Use](#use)
-- [API](#api)
-- [Types](#types)
 - [Contribute](#contribute)
 
 ## What is this?
@@ -39,17 +37,30 @@ yarn add -D @flex-development/eslint-config
   </small>
 </blockquote>
 
+In Deno with [`esm.sh`][esmsh]:
+
+```ts
+import fldvLint from 'https://esm.sh/@flex-development/eslint-config'
+```
+
 ## Use
 
-**TODO**: use
+```js
+import fldvLint from '@flex-development/eslint-config'
 
-## API
+/**
+ * eslint configuration.
+ *
+ * @type {import('eslint').Linter.Config[]}
+ */
+export default [
+  ...fldvLint.configs.node,
+  {
+    ignores: ['lib/**/*.d.mts']
+  }
+]
 
-**TODO**: what is this?
-
-## Types
-
-This package is fully typed with [TypeScript][].
+```
 
 ## Contribute
 
@@ -62,6 +73,6 @@ community you agree to abide by its terms.
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
-[typescript]: https://www.typescriptlang.org
+[esmsh]: https://esm.sh
 
 [yarn]: https://yarnpkg.com
