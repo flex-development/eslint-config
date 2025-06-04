@@ -75,7 +75,7 @@
     "@stylistic/eslint-plugin": "4.4.1",
     "@typescript-eslint/eslint-plugin": "8.33.0",
     "@typescript-eslint/parser": "8.33.0",
-    "eslint-import-resolver-typescript": "4.4.1",
+    "eslint-import-resolver-typescript": "4.4.2",
     "eslint-mdx": "3.4.2",
     "eslint-plugin-chai-expect": "3.1.0",
     "eslint-plugin-import": "2.31.0",
