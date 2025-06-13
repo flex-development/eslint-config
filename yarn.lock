@@ -1154,6 +1154,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/js@npm:9.29.0":
+  version: 9.29.0
+  resolution: "@eslint/js@npm:9.29.0"
+  checksum: 10/7f7fd586b35bd08537dd65a9bda764f474350c36b4ccbdd342462d1a26be28f7ee0ebd0611dd4762b69829674336ba04c281b9658aeccb3e6ab1d0fec7e6d08c
+  languageName: node
+  linkType: hard
+
 "@eslint/object-schema@npm:^2.1.6":
   version: 2.1.6
   resolution: "@eslint/object-schema@npm:2.1.6"
@@ -1288,7 +1295,7 @@ __metadata:
     "@arethetypeswrong/cli": "npm:0.18.2"
     "@commitlint/cli": "npm:19.8.1"
     "@commitlint/types": "npm:19.8.1"
-    "@eslint/js": "npm:9.28.0"
+    "@eslint/js": "npm:9.29.0"
     "@flex-development/commitlint-config": "npm:1.0.1"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
     "@flex-development/pathe": "npm:4.0.2"
