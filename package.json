@@ -70,7 +70,7 @@
     "remark": "remark ."
   },
   "dependencies": {
-    "@eslint/js": "9.31.0",
+    "@eslint/js": "9.32.0",
     "@flex-development/pathe": "4.0.2",
     "@stylistic/eslint-plugin": "5.2.2",
     "@typescript-eslint/eslint-plugin": "8.38.0",
@@ -105,7 +105,7 @@
     "devlop": "1.1.0",
     "dprint": "0.50.1",
     "editorconfig": "3.0.1",
-    "eslint": "9.31.0",
+    "eslint": "9.32.0",
     "growl": "1.10.5",
     "husky": "9.1.7",
     "prettier": "3.6.2",
