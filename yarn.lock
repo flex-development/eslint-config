@@ -1289,7 +1289,7 @@ __metadata:
     eslint-plugin-chai-expect: "npm:3.1.0"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jest-formatting: "npm:3.1.0"
-    eslint-plugin-jsdoc: "npm:58.1.1"
+    eslint-plugin-jsdoc: "npm:59.0.1"
     eslint-plugin-jsonc: "npm:2.20.1"
     eslint-plugin-mdx: "npm:3.6.2"
     eslint-plugin-n: "npm:17.21.3"
@@ -4303,9 +4303,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:58.1.1":
-  version: 58.1.1
-  resolution: "eslint-plugin-jsdoc@npm:58.1.1"
+"eslint-plugin-jsdoc@npm:59.0.1":
+  version: 59.0.1
+  resolution: "eslint-plugin-jsdoc@npm:59.0.1"
   dependencies:
     "@es-joy/jsdoccomment": "npm:~0.58.0"
     are-docs-informative: "npm:^0.0.2"
@@ -4320,7 +4320,7 @@ __metadata:
     spdx-expression-parse: "npm:^4.0.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10/02d4f8b494d9276e9b5cd61450cd33957f65b40c44e6b1693bede24fb5329611ba281a16b0db7ce0fdc0691f7d782b3ea4018648d440e0a376bd4e5af832c541
+  checksum: 10/0dcaf1e5242dadf43d616daebcc4a4ae43bcd72d8635c4e51538b68fcbd03358ef5969d5d06bb7989e7972fed5e8aa5c117413fca674b320e305f59b387b1207
   languageName: node
   linkType: hard
 
