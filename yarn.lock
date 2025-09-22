@@ -1299,7 +1299,7 @@ __metadata:
     globals: "npm:16.4.0"
     growl: "npm:1.10.5"
     husky: "npm:9.1.7"
-    jsonc-eslint-parser: "npm:2.4.0"
+    jsonc-eslint-parser: "npm:2.4.1"
     prettier: "npm:3.6.2"
     remark: "npm:15.0.1"
     remark-cli: "npm:12.0.1"
@@ -5873,7 +5873,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-eslint-parser@npm:2.4.0, jsonc-eslint-parser@npm:^2.4.0":
+"jsonc-eslint-parser@npm:2.4.1":
+  version: 2.4.1
+  resolution: "jsonc-eslint-parser@npm:2.4.1"
+  dependencies:
+    acorn: "npm:^8.5.0"
+    eslint-visitor-keys: "npm:^3.0.0"
+    espree: "npm:^9.0.0"
+    semver: "npm:^7.3.5"
+  checksum: 10/b728fcad68a82c734f23bf1fe1694eb970d597e752b605649b0c83d98783911a6a184ede77e170059bc3efe4e43625289a39a6a518433b0466ac45c06cee3246
+  languageName: node
+  linkType: hard
+
+"jsonc-eslint-parser@npm:^2.4.0":
   version: 2.4.0
   resolution: "jsonc-eslint-parser@npm:2.4.0"
   dependencies:
