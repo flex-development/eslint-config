@@ -922,6 +922,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@es-joy/resolve.exports@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@es-joy/resolve.exports@npm:1.2.0"
+  checksum: 10/238189f011902b3db0dcf9cd01d403eb565cfc80fb2614cba01c0c1f66b607575132f9952ac914a7395074fbca13415137a50152afc17b1dcb5ae032a84a680d
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.19.5":
   version: 0.19.5
   resolution: "@esbuild/android-arm64@npm:0.19.5"
@@ -1310,7 +1317,7 @@ __metadata:
     eslint-plugin-chai-expect: "npm:3.1.0"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jest-formatting: "npm:3.1.0"
-    eslint-plugin-jsdoc: "npm:61.1.5"
+    eslint-plugin-jsdoc: "npm:61.1.11"
     eslint-plugin-jsonc: "npm:2.21.0"
     eslint-plugin-mdx: "npm:3.6.2"
     eslint-plugin-n: "npm:17.21.3"
@@ -4320,11 +4327,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:61.1.5":
-  version: 61.1.5
-  resolution: "eslint-plugin-jsdoc@npm:61.1.5"
+"eslint-plugin-jsdoc@npm:61.1.11":
+  version: 61.1.11
+  resolution: "eslint-plugin-jsdoc@npm:61.1.11"
   dependencies:
     "@es-joy/jsdoccomment": "npm:~0.76.0"
+    "@es-joy/resolve.exports": "npm:1.2.0"
     are-docs-informative: "npm:^0.0.2"
     comment-parser: "npm:1.4.1"
     debug: "npm:^4.4.3"
@@ -4339,7 +4347,7 @@ __metadata:
     to-valid-identifier: "npm:^1.0.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10/8a5eef9b9957f22262ae7da7ed439b6cb6e2b04382d385dce5dc879d4f12ac93a745fa76f62432aa706e05c76a38cb79d7732e15cb29129ddd40895656ca4f3b
+  checksum: 10/9943eff541325619bd5363bbe4c4cf4cfec6f53a00f34b4575e28bbfd85378ff3b351bc12df58ec20fc6fa8dd277f5fc95a3737cb45b01b801359fd7f61c5d15
   languageName: node
   linkType: hard
 
