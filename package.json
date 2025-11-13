@@ -99,7 +99,7 @@
     "@flex-development/commitlint-config": "1.0.1",
     "@flex-development/grease": "3.0.0-alpha.9",
     "@flex-development/remark-preset": "1.0.0",
-    "@tsconfig/strictest": "2.0.7",
+    "@tsconfig/strictest": "2.0.8",
     "@vates/toggle-scripts": "1.0.0",
     "cspell": "9.3.0",
     "devlop": "1.1.0",
