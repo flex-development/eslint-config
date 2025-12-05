@@ -2416,17 +2416,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.48.1, @typescript-eslint/types@npm:^8.48.1":
+"@typescript-eslint/types@npm:8.48.1, @typescript-eslint/types@npm:^8.46.0, @typescript-eslint/types@npm:^8.47.0, @typescript-eslint/types@npm:^8.48.1":
   version: 8.48.1
   resolution: "@typescript-eslint/types@npm:8.48.1"
   checksum: 10/1aa1e3f25b429bcebd9eb45b5252d950f1b24dbc6014a47dff8d00547e2e1ac47f351846fb996b6ebd49da37a85394051d36191cbbbf2c431b8db9d95afd198d
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/types@npm:^8.46.0, @typescript-eslint/types@npm:^8.47.0":
-  version: 8.47.0
-  resolution: "@typescript-eslint/types@npm:8.47.0"
-  checksum: 10/fc42416c01c512cfe1533bdf521925bca999adc68ffefa246e48552783f1fe9d22487d912611c5cb35fca481604aae3cab88279a53ce76c7cd7510b76775c078
   languageName: node
   linkType: hard
 
