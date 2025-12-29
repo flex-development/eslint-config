@@ -1326,7 +1326,7 @@ __metadata:
     eslint-plugin-n: "npm:17.21.3"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-unicorn: "npm:62.0.0"
-    eslint-plugin-yml: "npm:1.19.0"
+    eslint-plugin-yml: "npm:1.19.1"
     globals: "npm:16.5.0"
     growl: "npm:1.10.5"
     husky: "npm:9.1.7"
@@ -4471,9 +4471,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:1.19.0":
-  version: 1.19.0
-  resolution: "eslint-plugin-yml@npm:1.19.0"
+"eslint-plugin-yml@npm:1.19.1":
+  version: 1.19.1
+  resolution: "eslint-plugin-yml@npm:1.19.1"
   dependencies:
     debug: "npm:^4.3.2"
     diff-sequences: "npm:^27.5.1"
@@ -4483,7 +4483,7 @@ __metadata:
     yaml-eslint-parser: "npm:^1.2.1"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10/68b4da25e21f04733153a868c35c48deda8b62d0f1f27443a36ad716a6f30d62f3e9cc50aaeb42625027f38af412a7ba26273da8f81b77f82a90dd6bfd7d25f3
+  checksum: 10/47c31c7c87a0ae601666aa18ab48c373fe79f039da00d8fa42b5f7298338ada45bfba7e07a2a59b612473e97146b34f39e06a84d48d425e020b7be1c9c7ba871
   languageName: node
   linkType: hard
 
