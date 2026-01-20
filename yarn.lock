@@ -1340,7 +1340,7 @@ __metadata:
     typescript-eslint: "npm:8.46.2"
     unified: "npm:11.0.5"
     vfile: "npm:6.0.3"
-    yaml-eslint-parser: "npm:1.3.2"
+    yaml-eslint-parser: "npm:2.0.0"
   languageName: unknown
   linkType: soft
 
@@ -10534,7 +10534,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml-eslint-parser@npm:1.3.2, yaml-eslint-parser@npm:^1.2.1":
+"yaml-eslint-parser@npm:2.0.0":
+  version: 2.0.0
+  resolution: "yaml-eslint-parser@npm:2.0.0"
+  dependencies:
+    eslint-visitor-keys: "npm:^5.0.0"
+    yaml: "npm:^2.0.0"
+  checksum: 10/5fe6e12c649399239765cc639bc9ab0ffa8630163074c1f54c84465c4f8456fa1ebd382e037016879edb47ecdb46a27b040fca091e9a611c23877629aeca5365
+  languageName: node
+  linkType: hard
+
+"yaml-eslint-parser@npm:^1.2.1":
   version: 1.3.2
   resolution: "yaml-eslint-parser@npm:1.3.2"
   dependencies:
