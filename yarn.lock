@@ -1175,16 +1175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@eslint/core@npm:1.0.1"
-  dependencies:
-    "@types/json-schema": "npm:^7.0.15"
-  checksum: 10/442b54d50adee1681672596abc538cba1a57d108d28e39aeed64e4beaee23aa6f9f029c7bc0b39e26d8c4754de16305fbfce7f6539e7df266163c0c49fbaa4af
-  languageName: node
-  linkType: hard
-
-"@eslint/core@npm:^1.1.0":
+"@eslint/core@npm:^1.0.1, @eslint/core@npm:^1.1.0":
   version: 1.1.0
   resolution: "@eslint/core@npm:1.1.0"
   dependencies:
