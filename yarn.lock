@@ -1175,12 +1175,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@eslint/core@npm:1.0.1"
+"@eslint/core@npm:^1.0.1, @eslint/core@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@eslint/core@npm:1.1.0"
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
-  checksum: 10/442b54d50adee1681672596abc538cba1a57d108d28e39aeed64e4beaee23aa6f9f029c7bc0b39e26d8c4754de16305fbfce7f6539e7df266163c0c49fbaa4af
+  checksum: 10/f62724beacbb5fdd3560816a4edbbf832485cbec9516b76037fdf2cc2d75011e546e305a22feaa6bed4c1a26d069dc953979aa3c8c28eccf0a746a5ac53483b0
   languageName: node
   linkType: hard
 
@@ -1225,13 +1225,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/plugin-kit@npm:^0.5.1":
-  version: 0.5.1
-  resolution: "@eslint/plugin-kit@npm:0.5.1"
+"@eslint/plugin-kit@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@eslint/plugin-kit@npm:0.6.0"
   dependencies:
-    "@eslint/core": "npm:^1.0.1"
+    "@eslint/core": "npm:^1.1.0"
     levn: "npm:^0.4.1"
-  checksum: 10/ea68c0a01279daf3b0f5aa65d82f7d65690b9a1aa6e2c7998dfc431039d22dcf0bdacee644ce77eb8dcec8e61128f2cbc6d57c7fe5b108e8cd875d47e3f79cda
+  checksum: 10/9c4e2901248ce092674b939fce9104a81d16222ed23c1b6057a5aaea8ec2fa802bcc9fbaf667e54a4206aca21f70c8b943ee14e6010530a46a4fcb64c41537b1
   languageName: node
   linkType: hard
 
@@ -1368,7 +1368,7 @@ __metadata:
     eslint-plugin-n: "npm:17.21.3"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-unicorn: "npm:62.0.0"
-    eslint-plugin-yml: "npm:3.0.0"
+    eslint-plugin-yml: "npm:3.1.2"
     globals: "npm:17.3.0"
     growl: "npm:1.10.5"
     husky: "npm:9.1.7"
@@ -4525,12 +4525,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:3.0.0":
-  version: 3.0.0
-  resolution: "eslint-plugin-yml@npm:3.0.0"
+"eslint-plugin-yml@npm:3.1.2":
+  version: 3.1.2
+  resolution: "eslint-plugin-yml@npm:3.1.2"
   dependencies:
     "@eslint/core": "npm:^1.0.1"
-    "@eslint/plugin-kit": "npm:^0.5.1"
+    "@eslint/plugin-kit": "npm:^0.6.0"
     debug: "npm:^4.3.2"
     diff-sequences: "npm:^29.0.0"
     escape-string-regexp: "npm:5.0.0"
@@ -4538,7 +4538,7 @@ __metadata:
     yaml-eslint-parser: "npm:^2.0.0"
   peerDependencies:
     eslint: ">=9.38.0"
-  checksum: 10/501d78791d45e7c0e722e727bc51e782fe80cb5762b0d1f3b72b27fabcb8610bd8dfbe3c2ba1dc03108cdb08811047152ba3564ba49d030bbe27b39cf3f0b9dd
+  checksum: 10/8be6d3353c21b7e276b76430fcff1ab83f2fcca491e58b4ba399738c3ce7196e82f55c98f88dc73061aa462cc6f868008dc294445524f2a2cb58457c6ddf0489
   languageName: node
   linkType: hard
 
