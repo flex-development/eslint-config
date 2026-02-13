@@ -1365,7 +1365,7 @@ __metadata:
     eslint-plugin-jsdoc: "npm:62.5.4"
     eslint-plugin-jsonc: "npm:2.21.1"
     eslint-plugin-mdx: "npm:3.6.2"
-    eslint-plugin-n: "npm:17.21.3"
+    eslint-plugin-n: "npm:17.23.2"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-unicorn: "npm:63.0.0"
     eslint-plugin-yml: "npm:3.1.2"
@@ -4467,9 +4467,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:17.21.3":
-  version: 17.21.3
-  resolution: "eslint-plugin-n@npm:17.21.3"
+"eslint-plugin-n@npm:17.23.2":
+  version: 17.23.2
+  resolution: "eslint-plugin-n@npm:17.23.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
@@ -4482,7 +4482,7 @@ __metadata:
     ts-declaration-location: "npm:^1.0.6"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10/da12ea061b5f81ab3b208297233662a85440fe29e9568bc0cc32a55405005d66d1c45356d88077a436bf9fd47097f3f45f42c26ca554612c2e0c9067aa99a1de
+  checksum: 10/67a15908b27fe5f9aee97d280c3e869debef58fc941b285ace6dab0baabe5263086f90d72a059f9e6efe0a427b77d42912892146eb8c882d085733c7cb068ead
   languageName: node
   linkType: hard
 
