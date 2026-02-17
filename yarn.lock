@@ -1368,7 +1368,7 @@ __metadata:
     eslint-plugin-n: "npm:17.21.3"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-unicorn: "npm:63.0.0"
-    eslint-plugin-yml: "npm:3.1.2"
+    eslint-plugin-yml: "npm:3.2.0"
     globals: "npm:17.3.0"
     growl: "npm:1.10.5"
     husky: "npm:9.1.7"
@@ -2079,6 +2079,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ota-meshi/ast-token-store@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@ota-meshi/ast-token-store@npm:0.2.0"
+  dependencies:
+    eslint-plugin-markdown-preferences: "npm:^0.40.2"
+  peerDependencies:
+    "@eslint/markdown": ^7.4.0
+    eslint: ">=9.0.0"
+  checksum: 10/8da88f51b73300365cb2d6ab1b29a164ce83154416a9fe1337f0353d91ca945d5e1044df481da0794bc8558449ca5e4e7ff3c7afca607125c479d949a49cf800
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -2292,6 +2304,13 @@ __metadata:
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
   checksum: 10/4e5aed58cabb2bbf6f725da13421aa50a49abb6bc17bfab6c31b8774b073fa7b50d557c61f961a09a85f6056151190f8ac95f13f5b48136ba5841f7d4484ec56
+  languageName: node
+  linkType: hard
+
+"@types/katex@npm:^0.16.0":
+  version: 0.16.8
+  resolution: "@types/katex@npm:0.16.8"
+  checksum: 10/4bf5d83d2430bc04c183765c5916c21180a75cb0181172a0aac7350943507679ceb79bfd13e394cf7c101b7417564d14c0c660baa93b16f2f42baef22a99435c
   languageName: node
   linkType: hard
 
@@ -3316,6 +3335,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "commander@npm:8.3.0"
+  checksum: 10/6b7b5d334483ce24bd73c5dac2eab901a7dbb25fd983ea24a1eeac6e7166bb1967f641546e8abf1920afbde86a45fbfe5812fbc69d0dc451bb45ca416a12a3a3
+  languageName: node
+  linkType: hard
+
 "comment-json@npm:^4.5.1":
   version: 4.5.1
   resolution: "comment-json@npm:4.5.1"
@@ -3745,7 +3771,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff-sequences@npm:^29.0.0":
+"diff-sequences@npm:^29.0.0, diff-sequences@npm:^29.6.3":
   version: 29.6.3
   resolution: "diff-sequences@npm:29.6.3"
   checksum: 10/179daf9d2f9af5c57ad66d97cb902a538bcf8ed64963fa7aa0c329b3de3665ce2eb6ffdc2f69f29d445fa4af2517e5e55e5b6e00c00a9ae4f43645f97f7078cb
@@ -3857,6 +3883,13 @@ __metadata:
   version: 1.5.244
   resolution: "electron-to-chromium@npm:1.5.244"
   checksum: 10/5a29ee295259c9161b62fe4d221cffa988e69a53021a19e460778cccc529716d4f0c9f5f42f1436260913b1dcd2e923cec3f8d6ae15a9af07ccde7df9ebb93b9
+  languageName: node
+  linkType: hard
+
+"emoji-regex-xs@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "emoji-regex-xs@npm:2.0.1"
+  checksum: 10/b23eb4e9cc4485ea64c8c7a77097b50a5c9fee89edc13bb27aedcb0104ba97dea6bc388701378df4ffca0dfdc3fa3a5dde7582dceb5c4af440d9cc5bbde397b7
   languageName: node
   linkType: hard
 
@@ -4447,6 +4480,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-markdown-preferences@npm:^0.40.2":
+  version: 0.40.2
+  resolution: "eslint-plugin-markdown-preferences@npm:0.40.2"
+  dependencies:
+    diff-sequences: "npm:^29.6.3"
+    emoji-regex-xs: "npm:^2.0.1"
+    mdast-util-from-markdown: "npm:^2.0.2"
+    mdast-util-frontmatter: "npm:^2.0.1"
+    mdast-util-gfm: "npm:^3.1.0"
+    mdast-util-math: "npm:^3.0.0"
+    micromark-extension-frontmatter: "npm:^2.0.0"
+    micromark-extension-gfm: "npm:^3.0.0"
+    micromark-extension-math: "npm:^3.1.0"
+    micromark-factory-space: "npm:^2.0.1"
+    micromark-util-character: "npm:^2.1.1"
+    micromark-util-symbol: "npm:^2.0.1"
+    string-width: "npm:^8.0.0"
+  peerDependencies:
+    "@eslint/markdown": ^7.4.0
+    eslint: ">=9.0.0"
+  checksum: 10/299214418539f000ac8f32f54e77ac4ff8e47ad41002ddd8c56dc97d44de142f60085a517b073724372cf9411a8882d3488ac5f97b30939a03020f3a71d76196
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-mdx@npm:3.6.2":
   version: 3.6.2
   resolution: "eslint-plugin-mdx@npm:3.6.2"
@@ -4523,12 +4580,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:3.1.2":
-  version: 3.1.2
-  resolution: "eslint-plugin-yml@npm:3.1.2"
+"eslint-plugin-yml@npm:3.2.0":
+  version: 3.2.0
+  resolution: "eslint-plugin-yml@npm:3.2.0"
   dependencies:
     "@eslint/core": "npm:^1.0.1"
     "@eslint/plugin-kit": "npm:^0.6.0"
+    "@ota-meshi/ast-token-store": "npm:^0.2.0"
     debug: "npm:^4.3.2"
     diff-sequences: "npm:^29.0.0"
     escape-string-regexp: "npm:5.0.0"
@@ -4536,7 +4594,7 @@ __metadata:
     yaml-eslint-parser: "npm:^2.0.0"
   peerDependencies:
     eslint: ">=9.38.0"
-  checksum: 10/8be6d3353c21b7e276b76430fcff1ab83f2fcca491e58b4ba399738c3ce7196e82f55c98f88dc73061aa462cc6f868008dc294445524f2a2cb58457c6ddf0489
+  checksum: 10/8dfd847bd039ace3ac775d7dceeadba4bb7b57aed024b1344bd97cd865098c96cc2f84d3d75233002c9fe566ad39e11fd4362f8edd3a61f472ba152f330287e3
   languageName: node
   linkType: hard
 
@@ -5008,10 +5066,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-east-asian-width@npm:^1.0.0":
-  version: 1.3.0
-  resolution: "get-east-asian-width@npm:1.3.0"
-  checksum: 10/8e8e779eb28701db7fdb1c8cab879e39e6ae23f52dadd89c8aed05869671cee611a65d4f8557b83e981428623247d8bc5d0c7a4ef3ea7a41d826e73600112ad8
+"get-east-asian-width@npm:^1.0.0, get-east-asian-width@npm:^1.3.0":
+  version: 1.4.0
+  resolution: "get-east-asian-width@npm:1.4.0"
+  checksum: 10/c9ae85bfc2feaf4cc71cdb236e60f1757ae82281964c206c6aa89a25f1987d326ddd8b0de9f9ccd56e37711b9fcd988f7f5137118b49b0b45e19df93c3be8f45
   languageName: node
   linkType: hard
 
@@ -6011,6 +6069,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"katex@npm:^0.16.0":
+  version: 0.16.28
+  resolution: "katex@npm:0.16.28"
+  dependencies:
+    commander: "npm:^8.3.0"
+  bin:
+    katex: cli.js
+  checksum: 10/8f8c043e95c9e97e90aa9cc59fe143a094215a08af15e49d0d09a9aaf9ae89b89c528feae5d9927c000ff0f7006df2016751d23cf524bcb69a1b06e173029376
+  languageName: node
+  linkType: hard
+
 "keyv@npm:^4.5.4":
   version: 4.5.4
   resolution: "keyv@npm:4.5.4"
@@ -6320,7 +6389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-frontmatter@npm:^2.0.0":
+"mdast-util-frontmatter@npm:^2.0.0, mdast-util-frontmatter@npm:^2.0.1":
   version: 2.0.1
   resolution: "mdast-util-frontmatter@npm:2.0.1"
   dependencies:
@@ -6396,7 +6465,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-gfm@npm:^3.0.0":
+"mdast-util-gfm@npm:^3.0.0, mdast-util-gfm@npm:^3.1.0":
   version: 3.1.0
   resolution: "mdast-util-gfm@npm:3.1.0"
   dependencies:
@@ -6721,6 +6790,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"micromark-extension-math@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "micromark-extension-math@npm:3.1.0"
+  dependencies:
+    "@types/katex": "npm:^0.16.0"
+    devlop: "npm:^1.0.0"
+    katex: "npm:^0.16.0"
+    micromark-factory-space: "npm:^2.0.0"
+    micromark-util-character: "npm:^2.0.0"
+    micromark-util-symbol: "npm:^2.0.0"
+    micromark-util-types: "npm:^2.0.0"
+  checksum: 10/37b2002aca15cf354ff754191379942f2b36df5ceeb69509294d80b4e158e8af83dda03c434e1497ccc597d63cf85a1ccc0d46f17770fc7692f76887404c8d1d
+  languageName: node
+  linkType: hard
+
 "micromark-extension-mdx-expression@npm:^3.0.0":
   version: 3.0.1
   resolution: "micromark-extension-mdx-expression@npm:3.0.1"
@@ -6837,7 +6921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-factory-space@npm:^2.0.0":
+"micromark-factory-space@npm:^2.0.0, micromark-factory-space@npm:^2.0.1":
   version: 2.0.1
   resolution: "micromark-factory-space@npm:2.0.1"
   dependencies:
@@ -6871,7 +6955,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-util-character@npm:^2.0.0":
+"micromark-util-character@npm:^2.0.0, micromark-util-character@npm:^2.1.1":
   version: 2.1.1
   resolution: "micromark-util-character@npm:2.1.1"
   dependencies:
@@ -7002,7 +7086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-util-symbol@npm:^2.0.0":
+"micromark-util-symbol@npm:^2.0.0, micromark-util-symbol@npm:^2.0.1":
   version: 2.0.1
   resolution: "micromark-util-symbol@npm:2.0.1"
   checksum: 10/497e6d95fc21c2bb5265b78a6a60db518c376dc438739b2e7d4aee6f9f165222711724b456c63163314f32b8eea68a064687711d41e986262926eab23ddb9229
@@ -9496,6 +9580,16 @@ __metadata:
     emoji-regex: "npm:^10.2.1"
     strip-ansi: "npm:^7.0.1"
   checksum: 10/8aefb456a230c8d7fe254049b1b2d62603da1a3b6c7fc9f3332f6779583cc1c72653f9b6e4cd0c1c92befee1565d4a0a7542d09ba4ceb6d96af02fbd8425bb03
+  languageName: node
+  linkType: hard
+
+"string-width@npm:^8.0.0":
+  version: 8.1.1
+  resolution: "string-width@npm:8.1.1"
+  dependencies:
+    get-east-asian-width: "npm:^1.3.0"
+    strip-ansi: "npm:^7.1.0"
+  checksum: 10/65efd6279165c846bb9c9b5f815821fc67695e4f71c713a288a570a926ed5b7594c8c75bd46baba040448a3625b81853017858f2293ca6a08dcf13037df5a728
   languageName: node
   linkType: hard
 
